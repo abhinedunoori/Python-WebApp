@@ -1,0 +1,103 @@
+body
+{
+	margin-top: 5%;
+	margin-left: 30%;
+	margin-right:30%;
+}
+
+.title
+{
+	
+	border:5px solid black;
+	font-family: sans-serif;
+
+}
+
+.title h1
+{
+	text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    margin-right: 5%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+	background-color:  green;
+}
+
+table, tbody, tr{
+    display: block;
+}
+
+.items table tr td
+{
+    padding: 10px;
+    
+}
+tr:nth-child(even) {background-color: #f2f2f2}
+
+.add
+{
+    padding-left: 30px;
+}
+
+.add form input
+{
+    display:block;
+    margin-bottom:10px;
+}
+
+#btn:active .add form
+{
+    display:none;
+}
+
+#btn:active .add p
+{
+    content: "The new task was inserted into the database"
+}
+
+.title table tr td a{
+    text-decoration: none;
+    color:black;
+    background:yellow;
+}
+
+.title table tr td:nth-child(odd)
+ {
+     display: none;
+ }
+
+.items table tr td a
+{
+    
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
